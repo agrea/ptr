@@ -1,0 +1,1 @@
+# goprt - Helper functions for pointers in Go
