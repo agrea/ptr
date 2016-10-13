@@ -5,6 +5,7 @@ Go.
 
 ## Usage
 
+    goptr.Bool(true)        // Returns *bool
     goptr.Float32(123.3)    // Returns *float32
     goptr.Float64(123.3)    // Returns *float64
     goptr.Int(123)          // Returns *int

@@ -2,6 +2,14 @@ package goptr
 
 import "testing"
 
+func TestBool(t *testing.T) {
+	var b bool = true
+
+	if *Bool(b) != b {
+		t.Error("did not get a pointer back")
+	}
+}
+
 func TestFloat32(t *testing.T) {
 	var f float32 = 123.12
 

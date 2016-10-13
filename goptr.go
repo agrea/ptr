@@ -1,5 +1,10 @@
 package goptr
 
+// Bool returns a pointer to a boolean.
+func Bool(b bool) *bool {
+	return &b
+}
+
 // Float32 returns a pointer to a float.
 func Float32(f float32) *float32 {
 	return &f
