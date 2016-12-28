@@ -66,6 +66,46 @@ func TestInt64(t *testing.T) {
 	}
 }
 
+func TestUint(t *testing.T) {
+	var i uint = 123
+
+	if *Uint(i) != i {
+		t.Error("did not get a pointer back")
+	}
+}
+
+func TestUint8(t *testing.T) {
+	var i uint8 = 123
+
+	if *Uint8(i) != i {
+		t.Error("did not get a pointer back")
+	}
+}
+
+func TestUint16(t *testing.T) {
+	var i uint16 = 123
+
+	if *Uint16(i) != i {
+		t.Error("did not get a pointer back")
+	}
+}
+
+func TestUint32(t *testing.T) {
+	var i uint32 = 123
+
+	if *Uint32(i) != i {
+		t.Error("did not get a pointer back")
+	}
+}
+
+func TestUint64(t *testing.T) {
+	var i uint64 = 123
+
+	if *Uint64(i) != i {
+		t.Error("did not get a pointer back")
+	}
+}
+
 func TestString(t *testing.T) {
 	var i string = "What was the question to life, universe and everything?"
 

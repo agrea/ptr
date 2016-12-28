@@ -40,6 +40,31 @@ func Int64(i int64) *int64 {
 	return &i
 }
 
+// Uint returns a pointer to an uint.
+func Uint(i uint) *uint {
+	return &i
+}
+
+// Uint8 returns a pointer to an uint.
+func Uint8(i uint8) *uint8 {
+	return &i
+}
+
+// Uint16 returns a pointer to an uint.
+func Uint16(i uint16) *uint16 {
+	return &i
+}
+
+// Uint32 returns a pointer to an uint.
+func Uint32(i uint32) *uint32 {
+	return &i
+}
+
+// Uint64 returns a pointer to an uint.
+func Uint64(i uint64) *uint64 {
+	return &i
+}
+
 // String returns a pointer to a string.
 func String(s string) *string {
 	return &s
