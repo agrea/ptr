@@ -45,6 +45,16 @@ func Int64(i int64) *int64 {
 	return &i
 }
 
+// Rune returns a pointer to a rune.
+func Rune(r rune) *rune {
+	return &r
+}
+
+// String returns a pointer to a string.
+func String(s string) *string {
+	return &s
+}
+
 // Uint returns a pointer to an uint.
 func Uint(i uint) *uint {
 	return &i
@@ -68,14 +78,4 @@ func Uint32(i uint32) *uint32 {
 // Uint64 returns a pointer to an uint.
 func Uint64(i uint64) *uint64 {
 	return &i
-}
-
-// Rune returns a pointer to a rune.
-func Rune(r rune) *rune {
-	return &r
-}
-
-// String returns a pointer to a string.
-func String(s string) *string {
-	return &s
 }
