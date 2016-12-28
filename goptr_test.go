@@ -34,6 +34,22 @@ func TestInt(t *testing.T) {
 	}
 }
 
+func TestInt8(t *testing.T) {
+	var i int8 = 123
+
+	if *Int8(i) != i {
+		t.Error("did not get a pointer back")
+	}
+}
+
+func TestInt16(t *testing.T) {
+	var i int16 = 123
+
+	if *Int16(i) != i {
+		t.Error("did not get a pointer back")
+	}
+}
+
 func TestInt32(t *testing.T) {
 	var i int32 = 123
 

@@ -20,6 +20,16 @@ func Int(i int) *int {
 	return &i
 }
 
+// Int8 returns a pointer to an int.
+func Int8(i int8) *int8 {
+	return &i
+}
+
+// Int16 returns a pointer to an int.
+func Int16(i int16) *int16 {
+	return &i
+}
+
 // Int32 returns a pointer to an int.
 func Int32(i int32) *int32 {
 	return &i
