@@ -10,6 +10,14 @@ func TestBool(t *testing.T) {
 	}
 }
 
+func TestByte(t *testing.T) {
+	b := []byte{'a'}
+
+	if *Byte(b[0]) != b[0] {
+		t.Error("did not get a pointer back")
+	}
+}
+
 func TestFloat32(t *testing.T) {
 	var f float32 = 123.12
 
