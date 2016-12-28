@@ -114,6 +114,14 @@ func TestUint64(t *testing.T) {
 	}
 }
 
+func TestRune(t *testing.T) {
+	var r rune = 1
+
+	if *Rune(r) != r {
+		t.Error("did not get a pointer back")
+	}
+}
+
 func TestString(t *testing.T) {
 	var i string = "What was the question to life, universe and everything?"
 

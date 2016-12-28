@@ -70,6 +70,11 @@ func Uint64(i uint64) *uint64 {
 	return &i
 }
 
+// Rune returns a pointer to a rune.
+func Rune(r rune) *rune {
+	return &r
+}
+
 // String returns a pointer to a string.
 func String(s string) *string {
 	return &s
