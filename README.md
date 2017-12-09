@@ -1,26 +1,25 @@
-# goptr
+# ptr
 
-The `goptr` package gives you some basic helpers for working with pointers in
-Go.
+The `ptr` package gives you some basic helpers for working with pointers in Go.
 
 ## Usage
 
-    goptr.Bool(true)        // Returns *bool
-    goptr.Byte(byte('a'))   // Returns *byte
-    goptr.Float32(123.3)    // Returns *float32
-    goptr.Float64(123.3)    // Returns *float64
-    goptr.Int(123)          // Returns *int
-    goptr.Int8(123)         // Returns *int8
-    goptr.Int16(123)        // Returns *int16
-    goptr.Int32(123)        // Returns *int32
-    goptr.Int64(123)        // Returns *int64
-    goptr.Rune(123)         // Returns *rune
-    goptr.String("string")  // Returns *string
-    goptr.Uint(123)         // Returns *uint
-    goptr.Uint8(123)        // Returns *uint8
-    goptr.Uint16(123)       // Returns *uint16
-    goptr.Uint32(123)       // Returns *uint32
-    goptr.Uint64(123)       // Returns *uint64
+    ptr.Bool(true)        // Returns *bool
+    ptr.Byte(byte('a'))   // Returns *byte
+    ptr.Float32(123.3)    // Returns *float32
+    ptr.Float64(123.3)    // Returns *float64
+    ptr.Int(123)          // Returns *int
+    ptr.Int8(123)         // Returns *int8
+    ptr.Int16(123)        // Returns *int16
+    ptr.Int32(123)        // Returns *int32
+    ptr.Int64(123)        // Returns *int64
+    ptr.Rune(123)         // Returns *rune
+    ptr.String("string")  // Returns *string
+    ptr.Uint(123)         // Returns *uint
+    ptr.Uint8(123)        // Returns *uint8
+    ptr.Uint16(123)       // Returns *uint16
+    ptr.Uint32(123)       // Returns *uint32
+    ptr.Uint64(123)       // Returns *uint64
 
 ## Running the tests
 

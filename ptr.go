@@ -1,4 +1,4 @@
-package goptr
+package ptr
 
 // Bool returns a pointer to a boolean.
 func Bool(b bool) *bool {
