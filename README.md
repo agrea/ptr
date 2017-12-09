@@ -23,7 +23,7 @@ The `ptr` package gives you some basic helpers for working with pointers in Go.
 
 ## Running the tests
 
-    make test
+    go test -v ./...
 
 ## License
 
