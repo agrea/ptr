@@ -1,6 +1,6 @@
 # ptr
 
-<p style="align: center">
+<p align="center">
     <a href="https://travis-ci.org/agrea/ptr"><img src="https://travis-ci.org/agrea/ptr.svg?branch=master"></a>
     <a href="https://godoc.org/github.com/agrea/ptr"><img src="https://img.shields.io/badge/godoc-documentation-blue.svg"></a>
 </p>
