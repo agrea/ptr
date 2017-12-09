@@ -1,6 +1,15 @@
 # ptr
 
 The `ptr` package gives you some basic helpers for working with pointers in Go.
+The package is simply intended to make it easy to create pointers to things.
+E.g. instead of writing:
+
+    s := "some string"
+    b := &s
+
+You'd just write
+
+    b := ptr.String("some string")
 
 ## Usage
 
