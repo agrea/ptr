@@ -3,6 +3,7 @@
 <p align="center">
     <a href="https://travis-ci.org/agrea/ptr"><img src="https://travis-ci.org/agrea/ptr.svg?branch=master"></a>
     <a href="https://godoc.org/github.com/agrea/ptr"><img src="https://img.shields.io/badge/godoc-documentation-blue.svg"></a>
+    <a href="https://codeclimate.com/github/agrea/ptr/maintainability"><img src="https://api.codeclimate.com/v1/badges/6220f7d67a8a2332b7df/maintainability" /></a>
 </p>
 
 The `ptr` package gives you some basic helpers for working with pointers in Go.
