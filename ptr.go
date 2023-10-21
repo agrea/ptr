@@ -1,5 +1,7 @@
 package ptr
 
+import "time"
+
 // Bool returns a pointer to a boolean.
 func Bool(b bool) *bool {
 	return &b
@@ -53,6 +55,11 @@ func Rune(r rune) *rune {
 // String returns a pointer to a string.
 func String(s string) *string {
 	return &s
+}
+
+// Time returns a pointer to a time.Time object.
+func Time(t time.Time) *time.Time {
+	return &t
 }
 
 // Uint returns a pointer to an uint.

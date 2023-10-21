@@ -30,6 +30,7 @@ You'd just write
     ptr.Int64(123)        // Returns *int64
     ptr.Rune(123)         // Returns *rune
     ptr.String("string")  // Returns *string
+    ptr.Time(time.Now())  // Returns *time.Time
     ptr.Uint(123)         // Returns *uint
     ptr.Uint8(123)        // Returns *uint8
     ptr.Uint16(123)       // Returns *uint16
